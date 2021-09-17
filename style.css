@@ -1,0 +1,101 @@
+:root {
+    --cor0: #dce0ec;
+    --cor1: #758DE1;
+    --cor2: #3055DB;
+    --cor3: #2541A8;
+    --cor4: #14245C;
+    --cor5: #30395C;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+    text-align: justify;   
+    background-color: var(--cor0);        
+}
+
+header {
+    background-image: linear-gradient(to bottom, var(--cor3), var(--cor5));
+    min-height: 220px;
+    text-align: center;
+    padding-top: 40px;
+    
+}
+
+header > h1 {
+    margin-bottom: 25px;
+    font-size: 2.2em;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.24);
+    color: white;
+}
+
+header > P {
+    font-size: 1.2em;
+    max-width: 500px;
+    margin: auto;
+    padding: 5px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.11);
+    color: white;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+}
+
+header a:hover{
+    background-color: var(--cor2);
+    text-decoration: underline;
+}
+
+main {
+    background-color: white;
+    max-width: 1000px;
+    min-width: 400px;
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.116);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+main > h4{
+    background-image: linear-gradient(to right, var(--cor1), transparent);
+    padding: 5px;
+    font-size: 1.2em;
+}
+
+main > table {
+    padding: 5px;
+}
+
+main td {
+    vertical-align: text-top;
+    padding: 5px;
+}
+
+main p {
+    padding: 10px;
+    line-height: 1.5em;
+}
+
+main > ul {
+    padding: 10px;
+    list-style-position: inside;
+    line-height: 1.5em;
+}
+
+footer {
+    background-color: var(--cor5);
+    color: white;
+    text-align:  center;
+    padding: 5px;
+    font-size: 0.8em;
+}
+
